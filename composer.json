@@ -1,0 +1,28 @@
+{
+    "name": "rodrigo/agenda",
+    "description": "Agenda de eventos pessoais",
+    "require": {
+        "coffeecode/datalayer": "2.0.*"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Lib\\": "lib/"
+        },
+        "files": [
+            "src/config.php"
+        ],
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Tognin"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor/"
+    }
+}

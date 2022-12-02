@@ -1,0 +1,28 @@
+Tabelas do banco agenda_db
+
+usuarios_tb - Cadastro de usuários
+eventos_tb - Cadastro de eventos
+categorias_tb - Cadastro de categorias dos eventos
+
+usuários_tb
+id - Código único do usuário
+nome - Nome do usuário
+login - Login de acesso
+senha - Senha de acesso
+status - 1 - Ativo, 2 - Inativo
+
+eventos_tb
+id - Código único do evento
+usuario_id - ID do usuário
+data_hora - Data e Hora do evento
+nome - Nome do evento
+descricao - Mais detalhes sobre o evento
+categoria_id - Identificação da categoria do evento
+status - 1 - Ativo, 2 - Inativo
+
+categorias_tb
+id - Código único da categoria
+usuario_id - ID do usuário
+nome - Identificação da categoria
+cor - Identificação com uma cor
+status - 1 - Ativo, 2 - Inativo

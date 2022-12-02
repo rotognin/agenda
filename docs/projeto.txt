@@ -1,0 +1,5 @@
+Agenda pessoal
+
+Projeto simples para a pessoa ir cadastrando os eventos e visualizá-los de uma forma
+mais simples. Apenas os eventos que irão acontecer estarão visíveis na tela, começando pelo
+mais próximo e indo para o mais adiante.
