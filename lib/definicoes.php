@@ -6,7 +6,7 @@ date_default_timezone_set('America/Sao_Paulo');
 require ('./vendor/autoload.php');
 
 define("DS", DIRECTORY_SEPARATOR);
-define("APP_VERSION", '2022.07.06-001');
+define("APP_VERSION", '2022.12.03-001');
 
 define ("STATUS", array(
     '1' => 'Ativo',
